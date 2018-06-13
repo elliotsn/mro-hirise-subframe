@@ -5,7 +5,7 @@
 % Usage:
 %
 %  [lonvec, latvec, xvec, yvec, im, flbl, lbl, linelims, samplelims]  = ...
-%    readHiriseJp2Subframe(fjp2, lims1, lims2, modestr);
+%    readHiriseJp2Subframe(fjp2, lims1, lims2, modestr)
 %
 % Inputs: 
 %  
@@ -14,12 +14,10 @@
 %   lims1/2  1x2 vector, min and max bounds to read in the JP2 of
 %            whichever coordinate is intended to be used. 
 %   modestr  String identifier of the mode in which to operate.
-%            
-%            Coord. system                       modestr
-%            -------------------------------------------
-%            lon, lat                            'lonlat'
-%            equidistant cylindrical x,y         'xy'
-%            sample, line                        'pix'
+%           System                              modestr
+%           lon, lat                            lonlat
+%           equidistant cylindrical x,y         xy
+%           sample, line                        pix
 %
 % Outputs:
 %
