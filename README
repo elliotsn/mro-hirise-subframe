@@ -1,8 +1,4 @@
-mro-hirise-subframe
- 
- readHiriseJp2Subframe.m
-
- Function to read a portion of a HiRISE map-projected JP2. Assumes the
+ Functions to read a portion of a HiRISE map-projected JP2. Assumes the
  label file is stored in the same directory as the HiRISE JP2.
 
  Usage:
