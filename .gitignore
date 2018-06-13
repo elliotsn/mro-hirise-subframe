@@ -1,0 +1,68 @@
+*.m~
+
+# Weighty images #
+# ################
+*.tif
+*.TIF
+*.tiff
+*.TIFF
+*.png
+*.PNG
+*.bmp
+*.BMP
+*.jpg
+*.JPG
+*.jpeg
+*.JPEG
+
+# Data products #
+# ##############
+*.IMG
+*.img
+*.lbl
+*.LBL
+*.tfw
+*.TFW
+*.pgw
+*.PGW
+*.cub
+*.CUB
+*.ovr
+*.OVR
+
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages #
+############
+# Better to unpack these files and commit the raw source
+# Git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
